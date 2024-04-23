@@ -1,9 +1,13 @@
 import boto3
 
 # Replace 'your_access_key_id' and 'your_secret_access_key' with your AWS credentials
-aws_access_key_id = 'AKIAVMSI45ZT4M7PRXKS'
-aws_secret_access_key = 'hb73Z67NTBYNNzKYE2sjA4kgAuEfSRAYijhbQShA'
+aws_access_key_id = ''
+#AKIAVMSI45ZT4M7PRXKS
+aws_secret_access_key = ''
+#hb73Z67NTBYNNzKYE2sjA4kgAuEfSRAYijhbQShA
 region_name = 'ap-south-1'  # e.g., 'us-east-1'
+
+
 
 # Initialize Rekognition client
 rekognition = boto3.client('rekognition', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key, region_name=region_name)
