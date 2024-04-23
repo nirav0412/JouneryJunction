@@ -1,8 +1,8 @@
 import boto3
 
 # Replace 'YOUR_ACCESS_KEY' and 'YOUR_SECRET_KEY' with your AWS access key and secret key
-aws_access_key = 'AKIAVMSI45ZT2JUN6CMP'
-aws_secret_key = 'mzFT7/4zogcEPpFmIYryqwiXmVW7MXalXePTreE9'
+aws_access_key = ''
+aws_secret_key = ''
 region_name = 'us-east-1'  # Replace with your desired AWS region
 
 # Create a Rekognition client
@@ -20,3 +20,6 @@ response = rekognition_client.detect_people(
 num_people = len(response['Persons'])
 
 print(f'Number of people in the frame: {num_people}')
+
+#AKIAVMSI45ZT2JUN6CMP
+#mzFT7/4zogcEPpFmIYryqwiXmVW7MXalXePTreE9
