@@ -26,7 +26,7 @@ db_config = {
     'host': 'mysql-33e8cfc8-kathrotiyanirav9-b916.d.aivencloud.com',
     'user': 'avnadmin',
     'port': '23549',
-    'password': 'AVNS_oDaeOqlgDSU_ZLboU2X',
+    'password': '',
     'database': 'defaultdb'
 }
 
