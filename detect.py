@@ -21,5 +21,4 @@ num_people = len(response['Persons'])
 
 print(f'Number of people in the frame: {num_people}')
 
-#AKIAVMSI45ZT2JUN6CMP
-#mzFT7/4zogcEPpFmIYryqwiXmVW7MXalXePTreE9
+
